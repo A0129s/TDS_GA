@@ -8,7 +8,7 @@ y = st.number_input("Enter second number:", step = 0.0001, value = 0.0000, forma
 z = st.number_input("Enter third number:", step = 0.0001, value = 0.0000, format = "%5.4f")
 
 
-greatest = max(n1, n2, n3)
+greatest = max(x,y,z)
 greatest = round(greatest, 4)
 
 
